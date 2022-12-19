@@ -8,7 +8,6 @@ public class RandomNumbers {
         for (int i = 0; i < numbers.length; i++) {
             numbers[i] = Math.random();
         }
-
         double max = numbers[0];
         double min = numbers[0];
         double avg = 0;
@@ -19,7 +18,6 @@ public class RandomNumbers {
                 min = numbers[i];
             avg += numbers[i] / numbers.length;
         }
-
         System.out.println("max = " + max);
         System.out.println("min = " + min);
         System.out.println("avg = " + avg);
